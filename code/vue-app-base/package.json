@@ -1,0 +1,42 @@
+{
+  "name": "vue-app-base",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "webpack-dev-server",
+    "build": "webpack",
+    "lint": "echo \"请使用 ESLint 实现此任务\""
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "css-loader": "^5.2.4",
+    "less": "^4.1.1",
+    "less-loader": "^5.0.0",
+    "mini-css-extract-plugin": "^1.5.0",
+    "postcss-loader": "^5.2.0",
+    "style-loader": "^2.0.0",
+    "vue": "^2.6.11",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.5.1"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

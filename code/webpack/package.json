@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "path": "^0.12.7",
+    "webpack": "^5.30.0"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.6.0"
+  }
+}
