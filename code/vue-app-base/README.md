@@ -37,4 +37,8 @@
   - 引入各种loader编译转换，如.scss,.less,vue,.md
 #### 使用plugin
 - 用到插件html-webpack-plugin，clean-webpack-plugin，copy-webpack-plugin
-- 代码检查
+- 代码检查配置
+  - 安装对应模块
+  - 安装eslint，eslint-loader
+  - 初始化.eslintrc.js配置文件
+- 分环境配置
